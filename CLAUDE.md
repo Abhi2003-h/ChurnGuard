@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Telecom customer churn prediction system with a decoupled architecture:
 - **`Churn_model.ipynb`** — Model training notebook (EDA, feature engineering, model selection, hyperparameter tuning, export)
-- **`backend/`** — FastAPI server that loads the model and serves prediction endpoints
+- **`backend/`** — Flask server that loads the model and serves prediction endpoints
 - **`frontend/`** — React + Vite + Tailwind CSS v4 + shadcn/ui dashboard
 
 ## Directory Structure
@@ -14,7 +14,7 @@ Telecom customer churn prediction system with a decoupled architecture:
 ```
 churn prediction/
 ├── backend/
-│   ├── main.py           ← FastAPI routes + CORS
+│   ├── main.py           ← Flask routes + CORS
 │   ├── model.py          ← model loading, predict_single, predict_batch, recommendations
 │   └── requirements.txt
 ├── frontend/
@@ -47,7 +47,7 @@ churn prediction/
 # Backend
 cd "churn prediction/backend"
 pip install -r requirements.txt
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+python main.py        # http://localhost:8000
 
 # Frontend
 cd "churn prediction/frontend"
