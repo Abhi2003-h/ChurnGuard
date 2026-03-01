@@ -1,0 +1,20 @@
+Title : ChurnGaurd : AI-POWERED CUSTOMER RISKPREDICTOR
+
+description : ChurnGuard is an AI-powered customer churn prediction system.It identifies customers at risk of churning before disengagement.Machine learning models analyze customer identifiers and usage patterns.Billing details and demographic data are used for accurate prediction.The system generates churn risk scores and actionable insights.Enables proactive retention strategies such as personalized offers and discounts. Helps improve customer loyalty and reduce churn.
+
+
+why churngaurd? : 
+
+To analyze customer usage, billing, and demographic data.
+
+To build an AI-based model for predicting customer churn.
+
+To identify customers at high risk of leaving.
+
+To generate churn risk scores and actionable insights.
+
+To enable proactive customer retention strategies.
+
+To improve prediction accuracy and reduce false positives.
+
+To support data-driven decision making in telecom services
