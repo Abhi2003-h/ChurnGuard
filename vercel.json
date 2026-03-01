@@ -11,7 +11,8 @@
       "use": "@vercel/python",
       "config": {
         "maxLambdaSize": "50mb",
-        "includeFiles": ["backend/**", "final_model.pkl"]
+        "includeFiles": ["backend/**", "final_model.pkl"],
+        "runtime": "python3.12"
       }
     }
   ],
